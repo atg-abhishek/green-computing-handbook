@@ -1,3 +1,43 @@
 site_name: The Green Computing Handbook
 theme:
   name: material
+  icon:
+    logo: material/book-open
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.top
+  font: 
+    text: Exo
+    code: Ubuntu Mono
+  palette:
+    scheme: slate
+    primary: green
+    accent: blue
+extra:
+  # disqus: green-computing-handbook
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/abhishekguptamcgill/
+      name: Abhishek Gupta on LinkedIn
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/atg-abhishek
+      name: Abhishek Gupta on Twitter
+    - icon: fontawesome/regular/address-book
+      link: https://atg-abhishek.github.io
+      name: Abhishek Gupta on the Web
+    - icon: fontawesome/brands/github
+      link: https://github.com/atg-abhishek
+      name: Abhishek Gupta on GitHub
+    - icon: fontawesome/solid/building
+      link: https://montrealethics.ai
+      name: Montreal AI Ethics Institute
+    - icon: fontawesome/solid/envelope-open-text
+      link: mailto:abhishek@montrealethics.ai
+      name: Abhishek Gupta on Email
+plugins:
+  - git-revision-date
+  - search
+copyright: Copyright &copy; 2021 Abhishek Gupta
+nav:
+  - Home: index.md
