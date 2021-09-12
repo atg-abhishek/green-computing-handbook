@@ -18,4 +18,4 @@ The book will initially focus on building green AI systems but will expand over 
 
 ## Discussions
 
-To comment or share your thoughts on this page, please head on over to our [Discussions](https://github.com/atg-abhishek/green-computing-handbook/discussions) page.
+To comment or share your thoughts on this page, please head on over to our [Discussions](https://github.com/atg-abhishek/green-computing-handbook/discussions) page or leave a comment below.

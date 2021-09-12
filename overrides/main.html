@@ -1,5 +1,19 @@
 {% extends "base.html" %}
 
 {% block announce %}
-  <p style="text-align:center">This is a work in progress, please share comments via the <a href="https://github.com/atg-abhishek/green-computing-handbook/discussions">Discussions</a> link at the bottom!</p>
+  <p style="text-align:center">This is a work in progress, please share comments via the <a href="https://github.com/atg-abhishek/green-computing-handbook/discussions">Discussions</a> page or section at the bottom!</p>
+{% endblock %}
+{% block scripts %}
+  <script src="https://giscus.app/client.js"
+  data-repo="atg-abhishek/green-computing-handbook"
+  data-repo-id="MDEwOlJlcG9zaXRvcnk0MDU2MTQ4NzE="
+  data-category="General"
+  data-category-id="DIC_kwDOGC0xF84B_Bng"
+  data-mapping="pathname"
+  data-reactions-enabled="1"
+  data-emit-metadata="1"
+  data-theme="dark_dimmed"
+  crossorigin="anonymous"
+  async>
+  </script>
 {% endblock %}
